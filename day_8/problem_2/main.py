@@ -13,7 +13,6 @@ while pos != 'ZZZ':
 	d = inst[idx%len(inst)]
 	pos = conn[pos][0 if d=='L' else 1]
 	idx += 1
-print("p1", idx)
 def solvesteps(start):
 	pos = start
 	idx = 0
