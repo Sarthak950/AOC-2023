@@ -49,4 +49,3 @@ for x in range(Lx+1):
 for y in range(Ly+1):
     init_points += [(-1, y, 1, 0), (Ly+1, y, -1, 0)]
 print(max(energize(mirror_map, Lx, Ly, pt) for pt in init_points))
-
